@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="js-cookie.js"></script>
+    <script src="jquery-3.1.1.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>DWOF</title>
+</head>
+<body>
+<div id="bg"></div>
+<img src="images/settings.png" id="settingsbtn" class="cornerButton">
+<div id="settings">
+    <div class="header">Settings</div>
+    <br>
+    How to spin?
+    <br>
+    <input type="checkbox" id="checkdrag" name="howto" value="drag" checked>Drag the wheel!
+    <br>
+    <input type="checkbox" id="checkclick" name="howto" value="click">Click a button!
+    <br>
+    <input type="checkbox" id="checkspace" name="howto" value="space">Press space!
+    <br>
+    <div class="header">Items</div>
+    <img src="images/exit.png" id="exitsettings" class="cornerButton">
+    <table id="items">
+        <thead>
+            <tr>
+                <td>
+                    name
+                </td>
+                <td>
+                    weight
+                </td>
+                <td>
+                    background
+                </td>
+                <td>
+
+                </td>
+            </tr>
+        </thead>
+        <tbody id="itemsbody">
+        </tbody>
+    </table>
+    <div id="add">MORE!</div>
+    <div id="save">APPLY!</div>
+</div>
+<div id="centered">
+    <div id="value"></div>
+    <div id="pointer"></div>
+    <br>
+    <div id="wheelholder">
+        <div id="wheel" class="wheel">
+        </div>
+        </div>
+<br>
+    <div id="rollbutton">ROLL</div>
+    <div id="rotation"></div>
+
+</div>
+
+
+
+<div id="setup">
+
+Ei mittää
+
+</div>
+
+
+
+
+</body>
+<audio id="letsroll" src="sounds/letsroll.mp3"></audio>
+<audio id="clack" src="sounds/click.mp3"></audio>
+</html>
